@@ -50,6 +50,31 @@ table {
 }
 /* ----------- end reset ---------- */
 
+#container {
+  margin: 40px;
+}
+
+.page-title {
+  text-align: center;
+  padding: 20px 0px;
+  font-size: 36px;
+}
+
+article {
+  max-width: 980px;
+  margin: 10px auto
+}
+
+.links-to-profiles-container ul {
+  margin: 0 auto;
+  padding-top: 10px;
+}
+.links-to-profiles-container li {
+  display: inline-block;
+  
+}
+
+
 
 /* Small screen */
 @media only screen and (max-width: 470px) {
