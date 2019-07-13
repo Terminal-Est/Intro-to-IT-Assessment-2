@@ -65,13 +65,20 @@ article {
   margin: 10px auto
 }
 
+.links-to-profiles-container {
+}
 .links-to-profiles-container ul {
-  margin: 0 auto;
   padding-top: 10px;
 }
 .links-to-profiles-container li {
   display: inline-block;
-  
+}
+.profile-links {
+  display: block;
+  position: relative;
+  clear: both;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 article p {
@@ -88,10 +95,6 @@ article {
   max-width: 125px;
 }
 
-.links-to-profiles-container {
-  display: table;
-  margin: 0 auto;
-}
 .links-to-profiles-container li {
   padding: 5px;
 }
@@ -102,7 +105,13 @@ article {
 
 
 /* Small screen */
-@media only screen and (max-width: 470px) {
+@media only screen and (min-width: 1200px) {
+  body {
+    font-size: 120%;
+  }
+  .profile-links {
+    max-width: 750px;
+  }
   
 }
 
