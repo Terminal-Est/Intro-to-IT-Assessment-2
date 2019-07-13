@@ -74,6 +74,13 @@ article {
   
 }
 
+article p {
+  margin-bottom: 10px;
+}
+article {
+  margin-bottom: 10px;
+}
+
 .profile-image {
   -webkit-clip-path: circle(50.1% at 50% 50%);
   clip-path: circle(50.1% at 50% 50%);
@@ -84,6 +91,9 @@ article {
 .links-to-profiles-container {
   display: table;
   margin: 0 auto;
+}
+.links-to-profiles-container li {
+  padding: 5px;
 }
 
 .links-to-profiles-container figure {
