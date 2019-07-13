@@ -74,6 +74,21 @@ article {
   
 }
 
+.profile-image {
+  -webkit-clip-path: circle(50.1% at 50% 50%);
+  clip-path: circle(50.1% at 50% 50%);
+  height: auto;
+  max-width: 125px;
+}
+
+.links-to-profiles-container {
+  display: table;
+  margin: 0 auto;
+}
+
+.links-to-profiles-container figure {
+  text-align: center;
+}
 
 
 /* Small screen */
