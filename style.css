@@ -1,0 +1,110 @@
+/* 
+   Adapted from:
+   http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.3;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ----------- end reset ---------- */
+
+#container {
+  margin: 40px;
+}
+
+.page-title {
+  text-align: center;
+  padding: 20px 0px;
+  font-size: 36px;
+}
+
+article {
+  max-width: 980px;
+  margin: 10px auto
+}
+
+.links-to-profiles-container ul {
+  margin: 0 auto;
+  padding-top: 10px;
+}
+.links-to-profiles-container li {
+  display: inline-block;
+  
+}
+
+article p {
+  margin-bottom: 10px;
+}
+article {
+  margin-bottom: 10px;
+}
+
+.profile-image {
+  -webkit-clip-path: circle(50.1% at 50% 50%);
+  clip-path: circle(50.1% at 50% 50%);
+  height: auto;
+  max-width: 125px;
+}
+
+.links-to-profiles-container {
+  display: table;
+  margin: 0 auto;
+}
+.links-to-profiles-container li {
+  padding: 5px;
+}
+
+.links-to-profiles-container figure {
+  text-align: center;
+}
+
+
+/* Small screen */
+@media only screen and (max-width: 470px) {
+  
+}
+
+
+
