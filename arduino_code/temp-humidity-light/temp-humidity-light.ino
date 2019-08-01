@@ -5,7 +5,7 @@ dht DHT;
 #define DHT11_PIN 7
 #define SHOCK_PIN 2
 #define PIR_PIN   3
-#define LED_PIN   4
+#define LED_PIN   4 // for the LED
 #define LIGHT_PIN A0 // select the analog input pin for the photoresistor
 
 void setup(){
